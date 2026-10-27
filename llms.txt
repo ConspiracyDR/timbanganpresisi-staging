@@ -10,6 +10,10 @@
 - [Whale JTO Multi Item](https://www.timbanganpresisi.com/jto-multi-item/): Varian untuk pemuatan bertahap banyak item dalam satu transaksi, lengkap dengan harga per kg dan laporan rekap.
 - [Whale CWO](https://www.timbanganpresisi.com/whale-cwo/): Software check weighing untuk QC timbangan di lini produksi/pengemasan — mode per item (qty) dan penimbangan, target berat, toleransi, dan status lolos/gagal.
 
+## Perangkat Timbangan
+
+- [Timbangan Truk Portabel CAS RW Series](https://www.timbanganpresisi.com/timbangan-truk-portabel/): Timbangan sawit & truk portabel (portable axle pad) tanpa pondasi — alternatif timbangan ram untuk kebun dan pabrik sawit, konfigurasi 2/4/6 pad, indikator berkoper dengan printer, bonus Whale JTO Standard.
+
 ## Panduan & Layanan
 
 - [Software Jembatan Timbang](https://www.timbanganpresisi.com/software-jembatan-timbang/): Penjelasan lengkap alur software jembatan timbang dan perbandingan antar varian Whale JTO.
