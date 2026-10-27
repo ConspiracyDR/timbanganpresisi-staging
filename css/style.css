@@ -1011,3 +1011,7 @@ h1, h2, h3, h4 {
 /* Logo asli di header & footer */
 .brand { display: inline-flex; align-items: center; gap: 10px; }
 .brand .brand-mark { height: 34px; width: auto; display: block; }
+
+/* Kartu varian SJB: header logo seragam (bukan foto) */
+.product-card__media--logo { display: flex; align-items: center; justify-content: center; }
+.product-card__media--logo img { width: 128px; height: auto; object-fit: contain; }
