@@ -9,9 +9,13 @@
 - [Whale JTO Smart Scanner](https://www.timbanganpresisi.com/jto-smart-scanner/): Varian barcode — kode scan unik terikat data transaksi, mempercepat pemanggilan data timbang.
 - [Whale JTO Multi Item](https://www.timbanganpresisi.com/jto-multi-item/): Varian untuk pemuatan bertahap banyak item dalam satu transaksi, lengkap dengan harga per kg dan laporan rekap.
 - [Whale CWO](https://www.timbanganpresisi.com/whale-cwo/): Software check weighing untuk QC timbangan di lini produksi/pengemasan — mode per item (qty) dan penimbangan, target berat, toleransi, dan status lolos/gagal.
+- [Whale POS](https://www.timbanganpresisi.com/pos-timbangan/): Sistem kasir dengan timbangan terintegrasi untuk toko dan retail berbasis berat — berat terbaca otomatis, harga terhitung dari berat, cetak struk dan label barcode.
+- [Whale POS Android](https://www.timbanganpresisi.com/whale-pos-android/): Versi Android dari Whale POS — kasir timbangan dikendalikan dari HP, terhubung ke timbangan via Bluetooth, tanpa PC kasir.
+- [Whale CWO Android](https://www.timbanganpresisi.com/whale-cwo-android/): Versi Android dari Whale CWO — check weighing dari HP via Bluetooth: target, toleransi, status PASS/UNDER/OVER, tanpa komputer industri.
 
 ## Perangkat Timbangan
 
+- [Timbangan Digital Indikator Alexa](https://www.timbanganpresisi.com/timbangan-digital-alexa/): Timbangan duduk TM-A (30–150 kg) dan lantai Mustang (150 kg–3 ton) dengan indikator Alexa Cahaya Adil — Bluetooth bawaan, garansi 1 tahun, tersertifikasi metrologi; indikator juga dijual terpisah. Pasangan Whale POS Android dan Whale CWO Android.
 - [Timbangan Truk Portabel CAS RW Series](https://www.timbanganpresisi.com/timbangan-truk-portabel/): Timbangan sawit & truk portabel (portable axle pad) tanpa pondasi — alternatif timbangan ram untuk kebun dan pabrik sawit, konfigurasi 2/4/6 pad, indikator berkoper dengan printer, bonus Whale JTO Standard.
 
 ## Panduan & Layanan
