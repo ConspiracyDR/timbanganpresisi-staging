@@ -25,6 +25,7 @@
 
 ## Artikel
 
+- [Timbangan Sawit: Panduan Sistem Timbang untuk Kebun & Pabrik Kelapa Sawit](https://www.timbanganpresisi.com/blog/timbangan-sawit/): Titik timbang TBS di kebun, timbangan ram & jembatan timbang di PKS, opsi timbangan portabel, dan peran software untuk laporan inti-plasma.
 - [Cara Memilih Software Timbangan Digital](https://www.timbanganpresisi.com/blog/cara-memilih-software-timbangan-digital/): Panduan fitur wajib dan kompatibilitas sebelum membeli software timbangan.
 - [Integrasi Timbangan ke Komputer](https://www.timbanganpresisi.com/blog/integrasi-timbangan-ke-komputer/): Panduan RS232, USB, dan TCP/IP untuk menghubungkan timbangan ke komputer.
 - [Manfaat Software Jembatan Timbang](https://www.timbanganpresisi.com/blog/manfaat-software-jembatan-timbang/): Lima manfaat software jembatan timbang untuk pabrik dan tambang.

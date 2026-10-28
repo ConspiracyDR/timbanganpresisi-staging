@@ -65,7 +65,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+    <url>
+    <loc>https://www.timbanganpresisi.com/blog/timbangan-sawit/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+<url>
     <loc>https://www.timbanganpresisi.com/blog/cara-memilih-software-timbangan-digital/</loc>
     <lastmod>2025-06-01</lastmod>
     <changefreq>monthly</changefreq>
