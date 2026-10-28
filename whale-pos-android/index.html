@@ -79,6 +79,19 @@
     </div>
 
     <section class="section section--tight">
+      <div class="container">
+        <div class="video-box" data-video="/timbanganpresisi-staging/video/whale-pos-android.mp4">
+          <img class="vposter" src="/timbanganpresisi-staging/img/video-poster-pos-android.jpg" alt="Cuplikan video penjelasan Whale POS Android" loading="lazy">
+          <button class="vplay" type="button" aria-label="Putar Cuplikan video penjelasan Whale POS Android">
+            <span class="vbtn"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+            <span class="vlabel">Putar Video</span>
+          </button>
+          <span class="vdur">0:48</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
       <div class="container" style="display:flex;flex-direction:column;align-items:center;">
         <img src="/timbanganpresisi-staging/img/app/pos-android.png" alt="Tampilan Whale POS Android di HP kasir — berat dari timbangan Alexa terbaca otomatis" style="width:min(340px,86vw);height:auto;border-radius:24px;">
         <p style="margin-top:12px;font-size:14px;opacity:.75;">Tampilan kasir Whale POS Android: berat masuk sendiri dari timbangan, harga langsung terhitung.</p>
@@ -270,6 +283,19 @@
     })();
   </script>
 
+
+<script>
+document.querySelectorAll('.video-box').forEach(function (box) {
+  var btn = box.querySelector('.vplay');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var v = document.createElement('video');
+    v.src = box.getAttribute('data-video');
+    v.controls = true; v.autoplay = true; v.playsInline = true;
+    box.innerHTML = ''; box.appendChild(v);
+  });
+});
+</script>
 </body>
 </html>
 
