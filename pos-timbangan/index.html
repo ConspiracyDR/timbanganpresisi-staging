@@ -87,6 +87,21 @@
       </div>
     </div>
 
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Lihat Cara Kerjanya</h2>
+        <p class="lead">Video penjelasan Whale POS: pilih produk, berat terbaca otomatis dari timbangan, harga terhitung, dan struk tercetak.</p>
+        <div class="video-box" data-video="/timbanganpresisi-staging/video/whale-pos.mp4">
+          <img class="vposter" src="/timbanganpresisi-staging/img/video-poster-pos.jpg" alt="Cuplikan video penjelasan Whale POS" loading="lazy">
+          <button class="vplay" type="button" aria-label="Putar video penjelasan Whale POS">
+            <span class="vbtn"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+            <span class="vlabel">Putar Video</span>
+          </button>
+          <span class="vdur">1:00</span>
+        </div>
+      </div>
+    </section>
+
     <section class="section section--alt">
       <div class="container">
         <h2 class="section-title">Masalah Toko yang Jual Per Kilogram</h2>
@@ -337,5 +352,18 @@
     })();
   </script>
 
+
+<script>
+document.querySelectorAll('.video-box').forEach(function (box) {
+  var btn = box.querySelector('.vplay');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var v = document.createElement('video');
+    v.src = box.getAttribute('data-video');
+    v.controls = true; v.autoplay = true; v.playsInline = true;
+    box.innerHTML = ''; box.appendChild(v);
+  });
+});
+</script>
 </body>
 </html>

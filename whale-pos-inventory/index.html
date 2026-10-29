@@ -72,6 +72,21 @@
       </div>
     </section>
 
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Lihat Cara Kerjanya</h2>
+        <p class="lead">Video penjelasan Whale POS Inventory: barang masuk ditimbang di gudang dan stoknya tersinkron ke kasir.</p>
+        <div class="video-box" data-video="/timbanganpresisi-staging/video/whale-pos-inventory.mp4">
+          <img class="vposter" src="/timbanganpresisi-staging/img/video-poster-inventory.jpg" alt="Cuplikan video penjelasan Whale POS Inventory" loading="lazy">
+          <button class="vplay" type="button" aria-label="Putar video penjelasan Whale POS Inventory">
+            <span class="vbtn"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+            <span class="vlabel">Putar Video</span>
+          </button>
+          <span class="vdur">1:03</span>
+        </div>
+      </div>
+    </section>
+
     <section class="section section--alt">
       <div class="container">
         <h2 class="section-title">Masalah: Stok Gudang dan Kasir Sering Beda</h2>
@@ -257,5 +272,18 @@
     })();
   </script>
 
+
+<script>
+document.querySelectorAll('.video-box').forEach(function (box) {
+  var btn = box.querySelector('.vplay');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var v = document.createElement('video');
+    v.src = box.getAttribute('data-video');
+    v.controls = true; v.autoplay = true; v.playsInline = true;
+    box.innerHTML = ''; box.appendChild(v);
+  });
+});
+</script>
 </body>
 </html>
